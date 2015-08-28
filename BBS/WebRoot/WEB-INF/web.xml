@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ValidateCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckrandUserAction</servlet-name>
+    <servlet-class>com.oracle.servlet.CheckrandUserAction</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <url-pattern>/ValidateCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckrandUserAction</servlet-name>
+    <url-pattern>/checkrandUserAction</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+  <welcome-file>/loaddata.jsp</welcome-file>
+ </welcome-file-list>
+ <error-page>
+  <error-code>404</error-code>
+  <location>/404.jsp</location>
+ </error-page>
+ <error-page>
+  <error-code>500</error-code>
+  <location>/error.jsp</location>
+ </error-page>
+ <error-page>
+  <error-code>503</error-code>
+  <location>/error.jsp</location>
+ </error-page>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+ 
+<env-entry>
+ 	 <env-entry-name>isReady</env-entry-name>
+ 	 <env-entry-type>java.lang.Boolean</env-entry-type>
+  	<env-entry-value>true</env-entry-value>
+ 	</env-entry>
+ 	<resource-ref>
+ 	 <description>MYSQL</description>
+ 	 <res-ref-name>jdbc/mysql5</res-ref-name>  <!-- 注解：这个标签里面的内容要和猫里面配置的服务名一致，其他都不能动-->
+ 	 <res-type>java.sql.DataSource</res-type>
+ 	 <res-auth>Container</res-auth>
+ 	</resource-ref>
+</web-app>

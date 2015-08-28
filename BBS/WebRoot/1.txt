@@ -1,0 +1,11 @@
+必导入的文件
+ <script type="text/javascript" src="js/control.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/nvi.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/system/minilogo.gif" />
+   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <script type="text/javascript" src="js/bootstrap.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <c:import url="top.jsp"></c:import>
+    <c:import url="bottom.jsp"></c:import>

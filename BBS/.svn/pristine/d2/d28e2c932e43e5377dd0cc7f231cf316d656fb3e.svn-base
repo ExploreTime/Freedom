@@ -1,0 +1,40 @@
+ a:LINK,a:VISITED {
+	text-decoration: none;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+a:HOVER {
+	text-decoration: underline;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+}
+a:ACTIVE {
+	text-decoration: underline;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+}
+ a.b:LINK,a.b:VISITED {
+	text-decoration: none;
+	font-family: 宋体;
+	font-size: 12px;
+	color: gray;
+	font-style:italic;
+}
+a.b:HOVER {
+	text-decoration: underline;
+	font-family:宋体;
+	font-size: 12px;
+	color: red;
+}
+a.b:ACTIVE {
+	text-decoration: underline;
+	font-family: 宋体;
+	font-size: 12px;
+	color: red;
+}
