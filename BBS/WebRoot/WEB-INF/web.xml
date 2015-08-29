@@ -35,8 +35,8 @@
     <url-pattern>/checkrandUserAction</url-pattern>
   </servlet-mapping>
  <welcome-file-list>
-  <welcome-file>index.jsp</welcome-file>
   <welcome-file>/loaddata.jsp</welcome-file>
+  <welcome-file>index.jsp</welcome-file>
  </welcome-file-list>
  <error-page>
   <error-code>404</error-code>

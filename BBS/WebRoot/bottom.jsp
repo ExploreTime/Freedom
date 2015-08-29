@@ -7,5 +7,6 @@
 &nbsp;
 <a class="b" href="javascript:void()">友情链接</a>
 &nbsp;
+<a  class="b" href="loaddata.jsp">返回首页</a>
 </div>
 </center>

@@ -1,6 +1,8 @@
-#Thu Aug 27 16:18:43 CST 2015
 eclipse.preferences.version=1
 encoding//WebRoot/1.jsp=UTF-8
+encoding//WebRoot/2.jsp=UTF-8
+encoding//WebRoot/3.jsp=UTF-8
+encoding//WebRoot/WEB-INF/4.jsp=UTF-8
 encoding//WebRoot/WEB-INF/DBscript/DBdesign.sql=UTF-8
 encoding//WebRoot/edit/ueditor.all.js=UTF-8
 encoding/<project>=UTF-8
